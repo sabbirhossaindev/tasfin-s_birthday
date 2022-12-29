@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>তাশফিন এর জন্মদিন</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        @media (min-width: 768px) {
+            .width-25{
+                width: 25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="text-capitalize text-center bg-success p-4 text-white">
+        <h1>কোনটাতে ক্লিক করবে চিন্তা করো এখন</h1>
+    </header>
+
+    <section class="my-4 mx-auto w-75 d-flex justify-content-center flex-md-row flex-column">
+        <button class="btn btn-success btn-lg text-white text-capitalize width-25 py-5 fs-2 fw-bolder m-3" data-bs-target="#normal" data-bs-toggle="modal" type="button">
+          পড়াশোনা
+        </button>
+        <button class="btn btn-outline-success btn-lg border-3 text-capitalize width-25 py-5 fs-2 fw-bolder m-3" data-bs-target="#plus" data-bs-toggle="modal" type="button">খেলাধুলা</button>
+    </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="normal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="text-center bg-success p-4">
+          <h1>🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂</h1>
+        </div>
+        <div class="modal-body">
+          <h3 class="w-75 mx-auto lh-base text-justify">
+             সিরিয়াসলি, তুমি পড়াশোনা এর অপশনে সিলেক্ট করছ। আমার তো বিশ্বাসি হচ্ছে না। এটা জাস্ট মজা করার জন্য বলছি কিছু মনে করিও না ভাই। 
+             <br>
+             আচ্ছা যাই হোক, আজকে আমার প্রিয় ভাইটির জন্মদিন । তাই জন্মদিন উপলক্ষে আমার পক্ষ থেকে তোমার জন্যে একটা পার্টির আয়োজন করছি । হাতে ১০ মিনিট সময় নিয়ে একটু দেখবা তাহলে খুঁশি হবো । নিচের বাটনে ক্লিক করলেই তোমার পার্টি শুরু হয়ে যাবে। 
+          </h3>
+        </div>
+        <button onclick="goToPage()" class="btn btn-outline-success btn-lg border-3 text-capitalize w-50 mx-auto py-2 fs-2 fw-bolder m-3">
+          এখনো কথা শেষ হয় নাই <br>
+          এখানে ক্লিক করো বুঝতে পারবে,
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="plus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="text-center bg-success p-4">
+          <h1>🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂</h1>
+        </div>
+        <div class="modal-body">
+          <h3 class="w-75 mx-auto lh-base text-justify">
+            জানতাম তুমি খেলাধুলা এর অপশনে সিলেক্ট করবে । ভালো হয়ে যাও এখনো অনেক সময় আছে। এটা জাস্ট মজা করার জন্য বলছি কিছু মনে করিও না ভাই।
+             <br>
+             আচ্ছা যাই হোক, আজকে আমার প্রিয় ভাইটির জন্মদিন । তাই জন্মদিন উপলক্ষে আমার পক্ষ থেকে তোমার জন্যে একটা পার্টির আয়োজন করছি । হাতে ১০ মিনিট সময় নিয়ে একটু দেখবা তাহলে খুঁশি হবো । নিচের বাটনে ক্লিক করলেই তোমার পার্টি শুরু হয়ে যাবে।  
+          </h3>
+        </div>
+        <button onclick="goToPage()" class="btn btn-outline-success btn-lg border-3 text-capitalize w-50 mx-auto py-2 fs-2 fw-bolder m-3">
+          চলো শুরু করি এখানে ক্লিক করে
+        </button>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        function goToPage(){
+            window.location.href = 'birthday-wish-main/birthday-wish/index.html'
+        }
+    </script>
+</body>
+</html>
